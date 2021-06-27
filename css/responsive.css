@@ -42,6 +42,7 @@
   }
   .seach-box input[type="text"] {
       margin-bottom: 5px;
+      width: 400px;
   }
   .seach-box button{
        width: 273px;
