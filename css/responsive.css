@@ -23,6 +23,8 @@
 @media(max-width: 700px){
     .icons-boxs{
       grid-template-columns: repeat(2, 1fr);
+      width: 100%;
+      margin: auto;
   }
   .wrapper{
       display: none;
