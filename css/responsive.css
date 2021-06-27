@@ -17,7 +17,7 @@
       grid-template-columns: repeat(2, 1fr);
       width: 100%;
       margin: auto;
-      padding-left: 60px;
+      padding-left: 40px;
   }
   .wrapper{
       display: none;
@@ -39,7 +39,7 @@
   }
   .seach-box{
       padding: 0;
-      padding-left: 55px;
+      padding-left: 25px;
       padding-bottom: 10px;
   }
   .seach-box input[type="text"] {
