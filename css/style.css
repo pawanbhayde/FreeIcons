@@ -50,7 +50,7 @@ nav{
     font-weight: 800;
 }
 .nav-menu{
-    width: 70%;
+    width: 68%;
 }
 .nav-menu ul li a{
     margin-right: 30px;
@@ -93,7 +93,7 @@ main p{
 }
 
 .icons-boxs{
-    width: 90%;
+    width: 95%;
     margin: auto;
     padding-top: 20px;
     padding-bottom: 100px;
@@ -102,7 +102,7 @@ main p{
 }
 .icon-box{
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 174px ;
     height: 164px;
     text-align: center;
