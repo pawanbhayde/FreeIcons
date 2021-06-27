@@ -26,6 +26,9 @@
       width: 100%;
       margin: auto;
   }
+.icon-box{
+    margin-bottom: 0px;
+  }
   .wrapper{
       display: none;
   }
