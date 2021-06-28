@@ -42,6 +42,7 @@
   }
   .packs-boxs{
     grid-template-columns: repeat(2, 1fr);
+    Width: 100%;
   }
   .packs-boxs a{
     margin-bottom: 10px;
