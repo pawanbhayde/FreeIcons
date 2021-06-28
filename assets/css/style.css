@@ -42,5 +42,6 @@
 @media (max-width: 700px) {
   .icons-boxs {
     grid-template-columns: repeat(2, 1fr);
+    margin: auto;
   }
 }
