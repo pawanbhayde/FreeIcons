@@ -3,142 +3,383 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FreeIcons</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/search.css">
-    <link rel="stylesheet" href="css/responsive.css">
 
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="./Js/search.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" />
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>FreeIcons</title>
 </head>
 
 <body>
-    <div class="menu-btn">
-        <i class="fas fa-bars fa-2x"></i>
-    </div>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="./Images/free.png" alt="">
-                <a href="index.html">FREEICONS</a>
-            </div>
-            <div class="nav-menu">
-                <ul>
-                    <li><a href="icons.html">Icons</a></li>
-                    <li><a href="#">3D Assets</a></li>
-                    <li><a href="#">Illustration</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                </ul>
-            </div>
-            <div class="right-nav">
-                <ul>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#" class="signin">Sign In</a></li>
-                </ul>
-            </div>
-        </nav>
-        <main>
-            <h1>Icons,illustrations, photos,<br> 3D Assets, and design tools</h1>
-            <div class="seach-box">
-                <form>
-                    <input type="text" placeholder="Search Box Is Not Working...">
-                    <select>
-                        <option>Icons</option>
-                        <option>3D Assets</option>
-                        <option>Illustration</option>
-                    </select>
-                    <button type="submit">Search</button>
-                </form>
-            </div>
-            <p>Popular now: <a href="#">youtube, facebook, app, instagram, whatsapp, twitter, phone</a></p>
-        </main>
-        <div class="product-box">
-            <div class="product">
-                <a href="icons.html" class="product-img">
-                    <img src="./Images/icon-product.png" alt="" height="48px">
-                </a>
-                <div class="product-text">
-                    <h3>432+ Free Icons</h3>
-                    <a href="#">All Icons Only For Non-Commercial Projects under the <span>FreeIcons License</span></a>
-                </div>
-            </div>
-            <div class="product">
-                <a href="" class="product-img">
-                    <img src="./Images/3dassets-product.png" alt="" height="48px">
-                </a>
-                <div class="product-text">
-                    <h3>1,098+ Free 3D Assets</h3>
-                    <a href="#">All 3D Assets Only For Non-Commercial Projects under the <span>FreeIcons License</span></a>
-                </div>
-            </div>
-            <div class="product">
-                <a href="" class="product-img">
-                    <img src="./Images/illustration-product.png" alt="" width="48" height="48px">
-                </a>
-                <div class="product-text">
-                    <h3>227+ Free Illustration</h3>
-                    <a href="#">All Illustration Only For Non-Commercial Projects under the <span>FreeIcons License</span></a>
-                </div>
-            </div>
-        </div>
+    <!--========== HEADER ==========-->
+    <header class="header">
+        <div class="header__container">
+            <img src="assets/img/perfil.jpg" alt="" class="header__img">
 
-        <div class="row-packs">
-            <div class="pack-heading">
-                <h2>Free icons</h2>
-                <p>See all style ></p>
-            </div>
-            <div class="packs-boxs">
-                <a href="icons.html">
-                  <img src="./Images/iconpack-1.png" alt="" width="184px" height="184px">
-                </a>
-                <a href="icons.html">
-                  <img src="./Images/iconpack-2.png" alt="" width="184px" height="184px">
-                </a>
-                <a href="icons.html">
-                  <img src="./Images/iconpack-3.png" alt="" width="184px" height="184px">
-                </a>
-                <a href="icons.html">
-                  <img src="./Images/iconpack-4.png" alt="" width="184px" height="184px">
-                </a>
-                <a href="icons.html">
-                  <img src="./Images/iconpack-5.png" alt="" width="184px" height="184px">
-                </a>
-                <a href="icons.html">
-                  <img src="./Images/iconpack-6.png" alt="" width="184px" height="184px">
-                </a>
-            </div>
-        </div>
+            <a href="#" class="header__logo">FreeIcons</a>
 
-        <div class="row-packs">
-            <div class="pack-heading">
-                <h2>Free Illustration</h2>
-                <p>See all style ></p>
+            <div class="header__search">
+                <input type="search" placeholder="Search" class="header__input">
+                <i class='bx bx-search header__icon'></i>
             </div>
-            <div class="packs-boxs">
-                <a href="icons.html">
-                    <img src="./Images/iconpack-1.png" alt="" width="184px" height="184px">
-                </a>
-                <a href="icons.html">
-                    <img src="./Images/iconpack-2.png" alt="" width="184px" height="184px">
-                </a>
-                <a href="icons.html">
-                    <img src="./Images/iconpack-3.png" alt="" width="184px" height="184px">
-                </a>
+
+            <div class="header__toggle">
+                <i class='bx bx-menu' id="header-toggle"></i>
             </div>
         </div>
     </header>
 
-    <script>
-        document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu')
-            .classList.toggle('show'));
-    </script>
+    <!--========== NAV ==========-->
+    <div class="nav" id="navbar">
+        <nav class="nav__container">
+            <div>
+                <a href="#" class="nav__link nav__logo">
+                    <i class='bx bxs-disc nav__icon'></i>
+                    <span class="nav__logo-name">FreeIcons</span>
+                </a>
+
+                <div class="nav__list">
+                    <div class="nav__items">
+                        <h3 class="nav__subtitle">Resources</h3>
+
+                        <a href="#" class="nav__link active">
+                            <i class='bx bx-outline nav__icon'></i>
+                            <span class="nav__name">Icons</span>
+                        </a>
+
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-pen nav__icon'></i>
+                                <span class="nav__name">Illustration</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Plan Illustration</a>
+                                    <a href="#" class="nav__dropdown-item">3D Illustration</a>
+                                    <!-- <a href="#" class="nav__dropdown-item">Dark Illustration</a> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-palette nav__icon'></i>
+                            <span class="nav__name">Color Palette</span>
+                        </a>
+                    </div>
+
+                    <div class="nav__items">
+                        <h3 class="nav__subtitle">Follow Us</h3>
+
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bxl-github nav__icon'></i>
+                                <span class="nav__name">GitHub</span>
+                                <!-- <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i> -->
+                            </a>
+
+                            <!-- <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#" class="nav__dropdown-item">Blocked</a>
+                                        <a href="#" class="nav__dropdown-item">Silenced</a>
+                                        <a href="#" class="nav__dropdown-item">Publish</a>
+                                        <a href="#" class="nav__dropdown-item">Program</a>
+                                    </div>
+                                </div> -->
+
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <i class='bx bxl-instagram nav__icon'></i>
+                            <span class="nav__name">Instagram</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class='bx bxl-dribbble nav__icon'></i>
+                            <span class="nav__name">Dribbble</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class='bx bxl-dev-to nav__icon'></i>
+                            <span class="nav__name">Dev Comunnity</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="nav__link nav__logout">
+                <i class='bx bx-log-out nav__icon'></i>
+                <span class="nav__name">Log Out</span>
+            </a>
+        </nav>
+    </div>
+
+    <!--========== CONTENTS ==========-->
+
+    <section class="icons">
+        <div class="icons-boxs">
+            <a href="https://drive.google.com/uc?export=download&id=1A2jQtJ6Hw82QzsYMrq8aqK8FY1wE9T0c">
+                <div class="icon-box">
+                    <img src="./assets/icons/2 User Broken.png" alt="" width="80px">
+                    <p>2 User Broken</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=17MO98vrGI24-9ff6DUQpVyt9W9uoDFfb">
+                <div class="icon-box">
+                    <img src="./assets/icons/2 User.png" alt="" width="80px">
+                    <p>2 User</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=12USV-By2EJzX_u0nrPmWodwygN8SSGb8">
+                <div class="icon-box">
+                    <img src="./assets/icons/3 User Broken.png" alt="" width="80px">
+                    <p>3 User Broken</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1jLt5by0nJrza5PoiN07mlhcrmFOwH1BP">
+                <div class="icon-box">
+                    <img src="./assets/icons/3 User.png" alt="" width="80px">
+                    <p>3 User</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=13fSOxIm-rqvlzwjFlU7tde66cOwNDhdb">
+                <div class="icon-box">
+                    <img src="./assets/icons/Activity Broken.png" alt="" width="80px">
+                    <p>Activity Broken</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1tsA6jWcP3v1u6X9NaQ6zn9QOrtnGYRE4">
+                <div class="icon-box">
+                    <img src="./assets/icons/Activity.png" alt="" width="80px">
+                    <p>Activity</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1-j8VqvlL8sm_N8i4349RMYHoMuKXpf4k">
+                <div class="icon-box">
+                    <img src="./assets/icons/Add User Broken.png" alt="" width="80px">
+                    <p>Add User Broken</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1qFz6Q1suUvFUnBmWwyCUWg3mdEWasQAq">
+                <div class="icon-box">
+                    <img src="./assets/icons/Add User.png" alt="" width="80px">
+                    <p>Add User</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1y2LSLrT0Ujuy9hH7ack5wLjJvDq-15yn">
+                <div class="icon-box">
+                    <img src="./assets/icons/Add.png" alt="" width="80px">
+                    <p>Add</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1U2NEEixvfn79rfVVBlxeWQHacbdFZrqK">
+                <div class="icon-box">
+                    <img src="./assets/icons/Adobe-After-effects.png" alt="" width="80px">
+                    <p>Adobe-After-effects</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=12IF6soa4w1hvhxStU66EZSmhmYRjLjpK">
+                <div class="icon-box">
+                    <img src="./assets/icons/Adobe-Experince-design.png" alt="" width="80px">
+                    <p>Adobe-Experince-design</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1gbCUbzfY1ALcxD8rrR_Wx3y2EYUdQ-2f">
+                <div class="icon-box">
+                    <img src="./assets/icons/Adobe-Illustrator.png" alt="" width="80px">
+                    <p>Adobe-Illustrator</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1GuxdzoGW7oE74oY_s9ez636gNlz-iwjM">
+                <div class="icon-box">
+                    <img src="./assets/icons/Adobe-Indesign-1.png" alt="" width="80px">
+                    <p>Adobe-Indesign-1</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1lX9DzCa_y1QQUnkQJeBhMPhdOAicI3Od">
+                <div class="icon-box">
+                    <img src="./assets/icons/Adobe-Indesign.png" alt="" width="80px">
+                    <p>Adobe-Indesign</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1gKAf2lhaOIb0bAPcQRdy2UWCcUSZX2ou">
+                <div class="icon-box">
+                    <img src="./assets/icons/Adobe-Lightroom.png" alt="" width="80px">
+                    <p>Adobe-Lightroom</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1Rx2CdgugG_H6tE4KYIM4UpDnXnVD8HLA">
+                <div class="icon-box">
+                    <img src="./assets/icons/Adobe-Photoshop.png" alt="" width="80px">
+                    <p>Adobe-Photoshop</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1hXnWrI2_4eJmGqdRIFVh1fNWZiX5Yjzp">
+                <div class="icon-box">
+                    <img src="./assets/icons/Adobe-Premiere.png" alt="" width="80px">
+                    <p>Adobe-Premiere</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1jljE7YFhcGivxIl8KzCgsCYEEzQpWNyM">
+                <div class="icon-box">
+                    <img src="./assets/icons/Alarm.png" alt="" width="80px">
+                    <p>Alarm</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1WgD0p_F_tq2Nw9rae7VwyIl_HBKE2Gda">
+                <div class="icon-box">
+                    <img src="./assets/icons/Android.png" alt="" width="80px">
+                    <p>Android</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=11cDWeT7drpsEiu_BOv3uwIgcpBd9_nq6">
+                <div class="icon-box">
+                    <img src="./assets/icons/Apple.png" alt="" width="80px">
+                    <p>Apple</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1kWLItKmyh_duDq8r0VdYGPqroBUtCcA3">
+                <div class="icon-box">
+                    <img src="./assets/icons/Apps.png" alt="" width="80px">
+                    <p>Apps</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1jYQquiY6nz14CMt1QIuVzF-1AFaks_Kc ">
+                <div class="icon-box">
+                    <img src="./assets/icons/App-store.png" alt="" width="80px">
+                    <p>App-store</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1kzUsvqeklQsFdbqzqW1WX-8btj05Ebhm">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Down 2 Broken.png" alt="" width="80px">
+                    <p>Arrow - Down 2 Broken</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1lXR7iWzcXviSNPDGeyfJympMoy1vsbLz">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Down 2.png" alt="" width="80px">
+                    <p>Arrow - Down 2</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1KNymQiYcQ1-CJESLnXhzDUtl51fluAdP">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Down 3 Broken.png" alt="" width="80px">
+                    <p>Arrow - Down 3 Broken</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=10vGl2psXUDeRSzY_yeAgjOAo79kE1zEN">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Down 3.png" alt="" width="80px">
+                    <p>Arrow - Down 3</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=18tbxcuMLoov_BIJQbbGv21-dEdVd5-Hs">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Down Broken.png" alt="" width="80px">
+                    <p>Arrow - Down Broken</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=18tbxcuMLoov_BIJQbbGv21-dEdVd5-Hs">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Down Circle Broken.png" alt="" width="80px">
+                    <p>Arrow - Down Circle Broken</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1XY0b3UTUV2s2XpGb8rXIYqt5qKAwh2le">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Down Circle.png" alt="" width="80px">
+                    <p>Arrow - Down Circle</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1455l9vYyqRiD_p6QnxExM9OHs3KzJjAY">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Down Square Broken.png" alt="" width="80px">
+                    <p>Arrow - Down Square Broken</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1dtFV25Vq5Mq_yTthYLCBbyJVeTYqOnUr">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Down Square.png" alt="" width="80px">
+                    <p>Arrow - Down Square</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1MdJsITIzM4zr-wduit26-mh7H1S3cJ9x">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Down.png" alt="" width="80px">
+                    <p>Arrow - Down</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1M5jMuWIGeghwxu9ITGzxvevNWRb2zVnP">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Left 2 Broken.png" alt="" width="80px">
+                    <p>Arrow - Left 2 Broken</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1mcMpky8-ty1FH48-dZoDJ-GMVR2Sohof">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Left 2.png" alt="" width="80px">
+                    <p>Arrow - Left 2</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=16YJuaA90jyBuAbfTlR9ryzjcn8OLOpix">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Left 3 Broken.png" alt="" width="80px">
+                    <p>Arrow - Left 3 Broken</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1leDo5UEk7a9lForZ0itNGDYPQg0w0gyU">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Left 3.png" alt="" width="80px">
+                    <p>Arrow - Left 3</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1ufpn8rCBy4fvrinmMBLb6WFBnUw0-BT0">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Left Broken.png" alt="" width="80px">
+                    <p>Arrow - Left Broken</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1636nGwV10zDeyZSarFQm2APKjjXMXgT0">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Left.png" alt="" width="80px">
+                    <p>Arrow - Left</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1JDJjsTFZ-X7DHvZE5ts_-KH2gqZ_6Pjl">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Left Circle Broken.png" alt="" width="80px">
+                    <p>Arrow - Left Circle Broken</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1MfPoskKhmPTpPoG2YOofCaXh_9Bj92vZ">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Left Circle.png" alt="" width="80px">
+                    <p>Arrow - Left Circle</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1lsT6w7tux4iBT7ff0821zIN84y7lsQWt">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Left Square Broken.png" alt="" width="80px">
+                    <p>Arrow - Left Square Broken</p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1ElU-88n9jU3Afw4sP14ERA7rwVwSNv5D">
+                <div class="icon-box">
+                    <img src="./assets/icons/Arrow - Left Square.png" alt="" width="80px">
+                    <p>Arrow - Left Square</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
