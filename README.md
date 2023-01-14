@@ -10,5 +10,7 @@ I build this idea for helping designers and developer to download icons, illustr
 
 **Visit site:** https://pawanbhayde.github.io/FreeIcons/
 
+## Screenshots
+
 ![image](https://user-images.githubusercontent.com/82137686/212466166-aaacdd8c-5460-434f-b493-99fd4aef835e.png)
 ![image](https://user-images.githubusercontent.com/82137686/212466307-10906f96-4931-42f0-aa62-9daeb527b40b.png)
