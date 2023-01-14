@@ -4,7 +4,7 @@ I build this idea for helping designers and developer to download icons, illustr
 
 ## Tech Stack
 
-**Client:** Html, Css
+**Client:** Html, Css, Javascript
 
 **Server:** Direct Download From Drive
 
